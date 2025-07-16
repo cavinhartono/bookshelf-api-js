@@ -13,7 +13,7 @@ const main = async () => {
   });
   server.route(Routes);
   await server.start();
-  console.log("Server on port ", 9000);
+  console.log(`Server on port ${server.info.uri}`);
 };
 
 main();

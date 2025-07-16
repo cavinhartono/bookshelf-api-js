@@ -93,7 +93,7 @@ class BookHandler {
         .response({
           status: "success",
           data: {
-            Books: Books.map((book) => ({
+            books: Books.map((book) => ({
               id: book.id,
               name: book.name,
               publisher: book.publisher,
